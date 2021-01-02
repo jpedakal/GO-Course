@@ -7,6 +7,7 @@ func main() {
 	fmt.Println(res)
 }
 
+// type of arguements are int and return value type is int
 func addNum(a, b int) int {
 	return a + b
 }
