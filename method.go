@@ -6,7 +6,7 @@ type mesure struct {
 	height, width int
 }
 
-func (r *mesure) area() int {
+func (r mesure) area() int {
 	return r.height * r.width
 }
 
