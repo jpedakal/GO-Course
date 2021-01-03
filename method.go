@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type mesure struct {
 	height, width int
 }
@@ -10,5 +12,5 @@ func (r *mesure) area() int {
 
 func main() {
 	r := mesure{height: 25, width: 25}
-	fmt.Println("area", r.area)
+	fmt.Println("area", r.area())
 }
