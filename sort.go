@@ -11,7 +11,7 @@ func main() {
 	sort.Strings(strs)
 
 	// ints sort
-	digits := []int{1, 4, 6, 7, 78, 34, 56, 76,12,22}
+	digits := []int{1, 4, 6, 7, 78, 34, 56, 76, 12, 22}
 	sort.Ints(digits)
 	fmt.Println(digits)
 }
