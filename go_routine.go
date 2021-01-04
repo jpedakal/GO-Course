@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func f(from string) {
@@ -20,6 +21,7 @@ func main() {
 		fmt.Println(msg)
 	}("welcome")
 
-	go fmt.Println("Exit")
+	time.Sleep(time.Second)
+	fmt.Println("Exit")
 
 }
