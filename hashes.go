@@ -12,7 +12,7 @@ func main() {
 	h.Write([]byte(s))
 
 	bs := h.Sum(nil)
-		
-   fmt.Printf("%x\n", bs)
+
+	fmt.Printf("%x\n", bs)
 
 }
