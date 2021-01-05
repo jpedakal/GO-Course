@@ -16,4 +16,5 @@ func main() {
 	p("Index:", s.Index(str,"e"))
 	p("Join:", s.Join([]string{"a","b"},"-"))
 	p("Repeat", s.Repeat("a",5))
+	p("split", s.Split("a-b-c-d","-"))
 }
