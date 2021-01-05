@@ -8,5 +8,5 @@ import (
 var p = fmt.Println
 
 func main() {
-	p("contain")
+	p("contains:",s.Contains("test","es"))
 }
