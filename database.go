@@ -10,6 +10,9 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
+type Trainer struct{
+	
+}
 func main() {
 	// Replace the uri string with your MongoDB deployment's connection string.
 	uri := "mongodb://127.0.0.1:27017/?gssapiServiceName=mongodb"
